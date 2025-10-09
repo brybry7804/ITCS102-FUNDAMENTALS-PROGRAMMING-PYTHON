@@ -1,5 +1,8 @@
-#Hello World 10 Times 
-#stopping point is not included on the count 
-
-for ikot in range (1, 10, 1):
-    print(ikot,'Hello World!!') 
+for i in range(1, 11, 1):
+  for x in range(10, i, -1):
+    print(" ", end=" ")
+  for y in range(i,0,-1):
+    print(y, end=" ")
+  for z in range(2,i + 1,1):
+    print(z,end=" ")  
+  print()
